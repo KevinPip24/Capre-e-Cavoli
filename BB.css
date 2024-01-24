@@ -1,0 +1,242 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-color: #dcdcdc;
+    background: url(img/sfondo.jpg)fixed;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(185, 191, 192, 0.7);
+}
+
+nav {
+    text-align: center;
+    background: #2b2b2b;
+    padding: 20px;
+}
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+    }
+
+
+.presenta{
+    text-align: center;
+    font-size: large;
+    margin: 100px;
+    background-color: rgba(185, 191, 192, 0.5);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(185, 191, 192, 0.7);
+    margin-left: 5px;
+    border: 100px black;
+}
+
+h4{
+    text-align: center;
+    color: black;
+}
+button {
+    display:inline-block;
+    background-color:lightblue;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid blue;
+    }
+
+    .button:hover{
+    background-color: white;
+    color: black;
+
+    }
+
+   div a{
+    text-decoration: none;
+   }
+
+   .button{
+    display:inline-block;
+    background-color: #2b2b2b;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px black;
+   }
+
+   table img{
+    border-radius: 10px;
+   }
+
+   #name{
+    margin-left: 130px;
+   }
+
+   /*kevin*/
+   #tab{
+     margin-left: 170px;
+   }
+
+   
+
+   /*claudio*/
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #2b2b2b;
+}
+
+form button {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recensione {
+    background-color: #FFFFE4C4;
+    border-radius: 27px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+/*pasquale*/
+.x {
+    display: inline-block;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px black;
+}
+
+    .x:hover {
+        background-color: white;
+        color: black;
+    }
+
+.y {
+    display: inline-block;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px black;
+}
+
+    .y:hover {
+        background-color: white;
+        color: black;
+    }
+
+.z {
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px black;
+}
+
+    .z:hover {
+        background-color: white;
+        color: black;
+    }
+
+.pas {
+    background-color: #FFFFE4C4;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 50px;
+}
+
+/*Giorgia class="gio"*/
+
+
+.Gio {
+    background-color: #FFFFE4C4;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+
+/*kevin camere*/
+#cam {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(213, 186, 152, 0.3);
+    border-radius: 100px;
+    font-size: large;
+}
+
+#serv1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(213, 186, 152, 0.3);
+    border-radius: 20px;
+    font-size: large;
+}
+
+
+
+#serv {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(213, 186, 152, 0.3);
+    border-radius: 100px;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*vecchio: 
+    #servizi {
+    color: black;
+    background-color: #FFFFE4C4;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 700px;
+    font-size: large;
+   }
+*/

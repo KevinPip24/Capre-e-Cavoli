@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Prenota Ora</title>
+    <link rel="stylesheet" type="text/css" href="BB.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Prenotazioni Capra & Cavoli" />
+    <meta name="keywords" content="Capra & Cavoli, prenotazione tavoli, molise, B&B" />
+</head>
+<body>
+
+
+    <header>
+        <img src="img/capra.png" alt="capra">
+    </header>
+
+    <nav>
+        <!--Nav-->
+        <a href="index.html">Home</a>
+        <a href="camere.html">Le nostre camere</a>
+        <a href="servizi_offerti.html">I nostri servizi</a>
+        <a href="galleria_fotografica.html">Galleria Fotografica</a>
+        <a href="Prenotazioni.html">Prenotazioni </a>
+    </nav>
+
+
+
+    <main>
+        <h1 style="margin-left:10px;">Prenota Ora</h1>
+
+        <form action="/submit" method="post">
+            <label for="scelta" style="margin-left:10px;"><strong>Seleziona una stanza</strong></label>
+            <select id="scelta" name="scelta"style="margin-left:10px;">
+                <option value="opzione0">------</option>
+                <option value="opzione1">Camera Singola Standard</option>
+                <option value="opzione2"> Camera Matrimoniale Deluxe  </option>
+                <option value="opzione3"> Suite Familiare</option>
+                <option value="opzione4">Camera Vista Montagna</option>
+
+            </select>
+         </form>
+
+            <form action="/submit" method="post">
+                <label for="scelta" style="margin-left:10px;"><strong>Seleziona un'attività</strong></label>
+                <select id="scelta" name="scelta" style="margin-left:10px;">
+                    <option value="opzione0">------</option>
+                    <option value="opzione5"> Pacchetto Colazione Deluxe</option>
+                    <option value="opzione6"> Tour Guidato della Città </option>
+                    <option value="opzione7">Massaggio Rilassante </option>
+                    <option value="opzione8">Cena Romantica</option>
+                </select>
+            </form>
+
+            <br />
+            <form>
+                <label for="nome" style="margin-left:10px;"><strong>Nome:</strong></label>
+                <input type="text" id="nome" name="text" required style="margin-left:10px;"/>
+
+                <label for="numeroOspiti" style="margin-left:10px;"><strong>Numero di ospiti:</strong></label>
+                <input type="number" id="numeroOspiti" name="numeroOspiti" required style="margin-left:10px;">
+
+                <label for="data" style="margin-left:10px;"><strong>Data della prenotazione</strong></label>
+                <input type="date" id="data" name="data" required style="margin-left:10px;"/>
+
+                <label for="ora" style="margin-left:10px;"><strong>Ora della prenotazione</strong></label>
+                <input type="time" id="ora" name="ora" required style="margin-left:10px;" />
+
+                <br />
+                <input type="submit" value="Prenota Ora"style="margin-left:10px;" />
+
+            </form>
+</main>
+
+    <footer>
+        <div>
+            <a href="Recensioni.html" class="button">Recensioni</a>
+            <a href="contatti.html" class="button">Contatti</a>
+            <a href="localita.html" class="button">Localita ed Attrazioni</a>
+            <a href="eventi.html" class="button">Blog Eventi</a>
+            <br>
+            <br>
+        </div>
+
+        <h4>Ci trovi anche su:</h4>
+        <a href="#" class="x">Facebook </a>
+        <a href="#" class="y">Instagram</a>
+        <a href="#" class="z">TikTok </a>
+
+
+        <h4> &copy Copyright, 2024 CapreaeCavoli tutti i diritti riservati</h4>
+    </footer>
+
+</body>
+</html>
